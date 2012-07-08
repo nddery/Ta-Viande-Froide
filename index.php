@@ -1,10 +1,10 @@
 <?php
 // create an app instance
 require_once('php-sdk/src/facebook.php');
-$fb = new Facebook(array(
-   'appId'  => '133833300055411',
-   'secret' => '1de0eeed2bb137c519dfc88ec13ed003',
-));
+// require the credentials for the FB sdk
+require_once('creds.php');
+$creds = get_creds();
+$fb = new Facebook($creds);
 
 // get the user ID
 // we may or may not get this data, depending on if the user is logged in or not
