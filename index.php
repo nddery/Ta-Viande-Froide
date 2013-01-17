@@ -73,7 +73,7 @@ $about = "
 
   <hr />
 
-  <p>Design + code by <a href='http://jpcart.info' title='Juan Pablo Casis'>Juan Pablo Casis</a><br />
+  <p>Design + code by Juan Pablo Casis<br />
   Concept + code by <a href='http://nddery.ca' title='Nicolas Duvieusart D&eacute;ry'>Nicolas Duvieusart D&eacute;ry</a></p>
 ";
 ?>
