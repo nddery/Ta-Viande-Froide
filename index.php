@@ -47,7 +47,6 @@ else:
          'user_hometown',
          'user_location',
          'user_likes',
-         'user_online_presence',
          'user_relationships',
          'user_status',
          'user_work_history',
@@ -55,7 +54,7 @@ else:
          'user_education_history',
          'user_photos',
          'email',
-         'user_checkins',
+         'user_status',
          'read_stream',
          'user_events'
       )
